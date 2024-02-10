@@ -68,11 +68,9 @@ body {
     padding: 0;
     display: flex;
     gap: 1.5rem;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-size: 1.25rem;
-  }
+    /* f
   
-  .main-header_nav__7caAm a {
+  .nav a {
     text-decoration: none;
     color: #ddd6cb;
     font-weight: bold;
@@ -80,8 +78,8 @@ body {
     border-radius: 0.5rem;
   }
   
-  .main-header_nav__7caAm a:hover,
-  .main-header_nav__7caAm a:active {
+  .nav a:hover,
+  .nav a:active {
     background: linear-gradient(90deg, #ff8a05, #f9b331);
     background-clip: text;
     -webkit-background-clip: text;
@@ -89,11 +87,13 @@ body {
     text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
   }
   
-  .main-header_active__e0w9a {
+  .active {
     background: linear-gradient(90deg, #ff8a05, #f9b331);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }ont-family: 'Montserrat', sans-serif; */
+    font-size: 1.25rem;
   }
   
   .main-header_logo__BaWrz {
@@ -133,3 +133,31 @@ body {
     width: 100%;
     height: auto;
   }
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./components/nav-link/nav-link.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+
+.nav-link_link__MQzLA {
+    text-decoration: none;
+    color: #ddd6cb;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .nav-link_nav__RILHe:hover,
+  .nav-link_nav__RILHe:active {
+    background: linear-gradient(90deg, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
+  }
+  
+  .nav-link_active__D2Dz0 {
+    background: linear-gradient(90deg, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

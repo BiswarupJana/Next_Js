@@ -37,7 +37,19 @@
     "/meals/[mealSlug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/meals/[mealSlug]/page.css",
       "static/chunks/app/meals/[mealSlug]/page.js"
+    ],
+    "/meals/share/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/meals/share/page.css",
+      "static/chunks/app/meals/share/page.js"
+    ],
+    "/meals/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/meals/not-found.js"
     ]
   }
 }

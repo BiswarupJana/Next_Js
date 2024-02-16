@@ -1,4 +1,4 @@
 import classes from './loading-out.module.css'
-export default function  MealsLoadingPage(){
-    return <p className={classes.loading}>Fetching meals...</p>
+export default function  PeopleLoadingPage(){
+    return <p className={classes.loading}>Fetching Data...</p>
 }

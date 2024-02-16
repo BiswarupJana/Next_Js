@@ -56,16 +56,16 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/peoples/peopleCart.module.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************************/
 .peopleCart_meal__XbFXo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    color: #ddd6cb;
-    background: linear-gradient(90deg, #2c1e19, #25200f);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  color: #ddd6cb;
+  background: linear-gradient(90deg, #bf7733b0, #384ea7);
   }
   
   .peopleCart_headerText__xBMcE {
@@ -175,4 +175,37 @@
     animation: peoples_loading__Aq2nC 0.5s ease-in-out infinite;
     color: white;
     
+  }
+
+  .peoples_searchDiv__d7FCb {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  
+  .peoples_inputWrapper__O2lyU {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+  }
+  
+  .peoples_inputField__Eto28 {
+    border-radius: 10px;
+    margin-right: 6%;
+    background-color: aliceblue;
+    padding-left: 1%;
+    width: 100%;
+  }
+  
+  .peoples_crossButton__jtj8x {
+    position: absolute;
+    right: 6%;
+    cursor: pointer;
+  }
+  .peoples_magnifier__uW_vX {
+    margin-right: 6%;
+    cursor: pointer;
+    font-size:x-large ;
   }

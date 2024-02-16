@@ -23,16 +23,11 @@ export default function MainHeader() {
                 <NavLink  href="/peoples">Peoples</NavLink>
             </li>
             <li>
-                <NavLink  href="/meals">StarShip</NavLink>
+                <NavLink  href="/starships">StarShip</NavLink>
             </li>
+            
             <li>
-                <NavLink  href="/meals">Vehicles</NavLink>
-            </li>
-            <li>
-                <NavLink  href="/meals">Species</NavLink>
-            </li>
-            <li>
-            <NavLink  href="/community"> Planets</NavLink>
+            <NavLink  href="/planets"> Planets</NavLink>
               
             </li>
           </ul>

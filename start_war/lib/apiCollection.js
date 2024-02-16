@@ -62,3 +62,107 @@ export async function getNext({url}) {
     throw error; 
   }
 }
+
+export async function getMovies() {
+  try {
+    const response = await axios.get(`${baseApi}/films`);
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getMovie(slug) {
+  try {
+    const response = await axios.get(`${baseApi}/films/${slug}`);
+    
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getStarships() {
+  try {
+    const response = await axios.get(`${baseApi}/starships`);
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getStarship(slug) {
+  try {
+    const response = await axios.get(`${baseApi}/starships/${slug}`);
+    
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getPlanets() {
+  try {
+    const response = await axios.get(`${baseApi}/planets`);
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getPlanet(slug) {
+  try {
+    const response = await axios.get(`${baseApi}/planets/${slug}`);
+    
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}
+export async function getSearch({name,value}) {
+  // console.log(name,value);
+  try {
+    const response = await axios.get(`${baseApi}/${name}/?search=${value}`);
+    
+    
+    if (response.status === 200) {
+      return response.data;
+    } else {
+      throw new Error("Failed to fetch people data");
+    }
+  } catch (error) {
+    console.error("Error fetching people data:", error);
+    throw error; 
+  }
+}

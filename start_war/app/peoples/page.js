@@ -8,15 +8,13 @@ export default function PeoplesPage() {
     <>
       <header className={classes.header}>
         <h1>
-          Delicious meals, created{" "}
-          <span className={classes.highlight}>by you</span>
+        ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON {" "}
+          <span className={classes.highlight}>DISNEY+</span>
         </h1>
         <p>
-          Choose your favourite recipe and cook it yourself. It is easy and fun!
+        ~Check Peoples~
         </p>
-        <p className={classes.cta}>
-          <Link href="/meals/share">Share Your Favourite Recipe</Link>
-        </p>
+        
       </header>
       <main className={classes.main}>
         {/* <Suspense

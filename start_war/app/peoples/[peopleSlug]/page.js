@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getPeople } from "@/lib/apiCollection";
 import classes from './page.module.css';
 import { notFound } from "next/navigation";
+
 export default async function PeopleDetailsPage({params}){
     const people = await getPeople(params.peopleSlug);
     if(!people){
@@ -12,9 +13,7 @@ export default async function PeopleDetailsPage({params}){
     return (
         <>
         <header className={classes.header}>
-            {/* <div className={classes.image}>
-                <Image src={people.image} fill />
-            </div> */}
+            
             <div className={classes.headerText}>
                 <h1>{people.name}</h1>
                 <p className={classes.creator}>

@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/peoples/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/peoples/page.css",
+      "static/chunks/app/peoples/page.js"
+    ],
     "/peoples/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,23 +27,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/peoples/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/peoples/page.css",
-      "static/chunks/app/peoples/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
-    ],
-    "/peoples/[peopleSlug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/peoples/[peopleSlug]/page.css",
-      "static/chunks/app/peoples/[peopleSlug]/page.js"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// File: /media/joy/Volumn_D/practics/start_war/app/peoples/page.js
+// File: /media/joy/Volumn_D/github/Next_Js/start_war/app/peoples/page.js
 import * as entry from '../../../../app/peoples/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

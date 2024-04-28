@@ -1,0 +1,368 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/starships/page.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.page_header__MxNxv {
+    gap: 3rem;
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+  }
+  
+  .page_header__MxNxv h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .page_highlight__uWoal {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .page_header__MxNxv p {
+    margin: 0;
+  }
+  
+  .page_cta__66tis a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .page_loading__94J6g {
+    text-align: center;
+    animation: page_loading__94J6g 1.2s ease-in-out infinite;
+  }
+  
+  @keyframes page_loading__94J6g {
+    0% {
+      color: #e9e9e9;
+    }
+    50% {
+      color: #b89b84;
+    }
+    100% {
+      color: #e9e9e9;
+    }
+  }
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/peoples/peopleCart.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.peopleCart_meal__XbFXo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  color: #ddd6cb;
+  background: linear-gradient(90deg, #bf7733b0, #384ea7);
+  }
+  
+  .peopleCart_headerText__xBMcE {
+    padding: 0.5rem 1rem 0 1rem;
+  }
+  
+  .peopleCart_headerText__xBMcE h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .peopleCart_headerText__xBMcE p {
+    font-size: 0.75rem;
+    color: #cfa69b;
+    font-style: italic;
+  }
+  
+  .peopleCart_meal__XbFXo h2,
+  .peopleCart_meal__XbFXo p {
+    margin: 0;
+  }
+  
+  .peopleCart_image__mJHEe {
+    position: relative;
+    height: 15rem;
+  }
+  
+  .peopleCart_meal__XbFXo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .peopleCart_content__9mDzZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .peopleCart_summary__FvCKQ {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .peopleCart_actions__EAiUK {
+    padding: 1rem;
+    text-align: right;
+  }
+  
+  .peopleCart_actions__EAiUK a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .peopleCart_actions__EAiUK a:hover,
+  .peopleCart_actions__EAiUK a:active {
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+    box-shadow: 0 0 12px rgba(242, 100, 18, 0.8);
+  }
+  
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/peoples/peoples-grid.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.peoples-grid_meals__XDd0Y {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+  }
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/peoples/peoples.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.peoples_btnDiv__uvUFw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white ;
+    font-size: large;
+}
+.peoples_btnDisabled__lH0X4{
+    color :rgb(136, 128, 128)
+}
+@keyframes peoples_loading__Aq2nC {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+  
+.peoples_loading__Aq2nC {
+    text-align: center;
+    animation: peoples_loading__Aq2nC 0.5s ease-in-out infinite;
+    color: white;
+    
+  }
+
+  .peoples_searchDiv__d7FCb {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  
+  .peoples_inputWrapper__O2lyU {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+  }
+  
+  .peoples_inputField__Eto28 {
+    border-radius: 10px;
+    margin-right: 6%;
+    background-color: aliceblue;
+    padding-left: 1%;
+    width: 100%;
+  }
+  
+  .peoples_crossButton__jtj8x {
+    position: absolute;
+    right: 6%;
+    cursor: pointer;
+  }
+  .peoples_magnifier__uW_vX {
+    margin-right: 6%;
+    cursor: pointer;
+    font-size:x-large ;
+  }
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/starships/starshipCart.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.starshipCart_ships__NAs_8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    color: #ddd6cb;
+    background: linear-gradient(90deg, #bf7733b0, #384ea7);
+  }
+  
+  .starshipCart_headerText__QtPmi {
+    padding: 0.5rem 1rem 0 1rem;
+  }
+  
+  .starshipCart_headerText__QtPmi h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .starshipCart_headerText__QtPmi p {
+    font-size: 0.75rem;
+    color: #cfa69b;
+    font-style: italic;
+  }
+  
+  .starshipCart_meal__eA2O0 h2,
+  .starshipCart_meal__eA2O0 p {
+    margin: 0;
+  }
+  
+  .starshipCart_image__K4pm3 {
+    position: relative;
+    height: 15rem;
+  }
+  
+  .starshipCart_meal__eA2O0 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .starshipCart_content__dRNEo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .starshipCart_summary__ZMyCX {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .starshipCart_actions__50IUA {
+    padding: 1rem;
+    text-align: right;
+  }
+  
+  .starshipCart_actions__50IUA a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .starshipCart_actions__50IUA a:hover,
+  .starshipCart_actions__50IUA a:active {
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+    box-shadow: 0 0 12px rgba(242, 100, 18, 0.8);
+  }
+  
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/starships/starships-grid.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.starships-grid_ships__bjO7M {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+  }
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/starships/starships.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.starships_btnDiv__WmRsA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white ;
+    font-size: large;
+}
+.starships_btnDisabled__SEjo3{
+    color :rgb(136, 128, 128)
+}
+@keyframes starships_loading__QCxzy {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+  
+.starships_loading__QCxzy {
+    text-align: center;
+    animation: starships_loading__QCxzy 0.5s ease-in-out infinite;
+    color: white;
+    
+  }
+
+  .starships_searchDiv__RzW7z {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  
+  .starships_inputWrapper__BFHyi {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+  }
+  
+  .starships_inputField__UELuU {
+    border-radius: 10px;
+    margin-right: 6%;
+    background-color: aliceblue;
+    padding-left: 1%;
+    width: 100%;
+  }
+  
+  .starships_crossButton__JSVBk {
+    position: absolute;
+    right: 6%;
+    cursor: pointer;
+  }
+  .starships_magnifier__EzSEn {
+    margin-right: 6%;
+    cursor: pointer;
+    font-size:x-large ;
+  }

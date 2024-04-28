@@ -96,6 +96,7 @@ export async function getStarships() {
   try {
     const response = await axios.get(`${baseApi}/starships`);
     
+    console.log(response);
     if (response.status === 200) {
       return response.data;
     } else {

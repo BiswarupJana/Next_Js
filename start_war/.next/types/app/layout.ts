@@ -1,4 +1,4 @@
-// File: /media/joy/Volumn_D/practics/start_war/app/layout.js
+// File: /media/joy/Volumn_D/github/Next_Js/start_war/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
